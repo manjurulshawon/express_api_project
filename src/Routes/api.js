@@ -13,7 +13,7 @@ router.get('/blogs/read', blogController.read);
 router.get('/blogs/update', blogController.update);
 router.get('/blogs/delete', blogController.delete);
 
-// Routes for the comment controller (similarly for other controllers)
+// Routes for the comment controller 
 router.get('/comments/create', commentController.create);
 router.get('/comments/read', commentController.read);
 router.get('/comments/update', commentController.update);

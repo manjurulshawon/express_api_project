@@ -5,12 +5,12 @@ exports.create = async (req, res) => {
   };
   
   exports.read = async (req, res) => {
-    // Implementation for reading a blog
+    
     res.status(200).json({ status: 'success', data: 'Blog data' });
   };
   
   exports.delete = async (req, res) => {
-    // Implementation for deleting a blog
+    
     res.status(200).json({ status: 'success', data: 'Blog deleted' });
   };
   
